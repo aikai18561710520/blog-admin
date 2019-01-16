@@ -1,6 +1,6 @@
 /* config-overrides.js */
 const tsImportPluginFactory = require('ts-import-plugin')
-const { getLoader, compose } = require("react-app-rewired");
+const { getLoader } = require("react-app-rewired");
 
 module.exports = function override(config, env) {
 

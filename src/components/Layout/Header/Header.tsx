@@ -9,5 +9,4 @@ const HeaderWrapper = () => {
         </HeaderBox>
     )
 }
-
 export default HeaderWrapper
