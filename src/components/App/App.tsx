@@ -1,9 +1,8 @@
 import * as React from "react"
 import { Layout } from "antd"
-import { LayoutWrapper } from "./style"
+import { LayoutWrapper, ContentWrapper } from "./style"
 import HeaderWrapper from "../Layout/Header/Header"
 import SideBar from "../Layout/SideBar"
-const { Content } = Layout
 class App extends React.Component {
     public render() {
         return (
@@ -11,7 +10,7 @@ class App extends React.Component {
                 <SideBar />
                 <Layout>
                     <HeaderWrapper />
-                    <Content>123123</Content>
+                    <ContentWrapper>123123</ContentWrapper>
                 </Layout>
             </LayoutWrapper>
         )

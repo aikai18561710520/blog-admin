@@ -1,10 +1,17 @@
 import * as React from "react"
 import { Layout, Menu, Icon } from "antd"
+import { Logo } from "./style"
 const { Sider } = Layout
-
 const SideBar = () => {
     return (
-        <Sider>
+        <Sider breakpoint="lg" width="260">
+            <Logo>
+                <img
+                    alt="logo"
+                    src="http://antd-admin.zuiidea.com/public/logo.svg"
+                />
+                <span>Blog ADMIN</span>
+            </Logo>
             <Menu theme="dark" mode="inline" defaultSelectedKeys={["1"]}>
                 <Menu.Item key="1">
                     <Icon type="user" />
